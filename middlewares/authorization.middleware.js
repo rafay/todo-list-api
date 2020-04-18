@@ -1,5 +1,7 @@
 const jwt = require('jsonwebtoken');
-const tokenSecret = "pointyHairyBossy";
+const config = require('config');
+
+const tokenSecret = config.get("jwt.tokenSecret");
 
 const authorizeUser = (req, res, next) => {
     const token = req.headers.authorization;
