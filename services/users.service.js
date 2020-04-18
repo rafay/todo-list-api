@@ -1,8 +1,9 @@
 const Users = require('../db_models/user.schema');
 const {v1} = require('uuid');
 const jwt = require('jsonwebtoken');
+const config = require('config');
 
-const tokenSecret = "pointyHairyBossy";
+const tokenSecret = config.get("jwt.tokenSecret");
 
 exports.createUser = (userData) => {
     return new Promise((resolve, reject) => {

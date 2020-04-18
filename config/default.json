@@ -1,0 +1,8 @@
+{
+  "dbConfig": {
+    "mongoUrl": "mongodb+srv://dbUser:dbUser4321@cluster0-8hudr.mongodb.net/pointy-hairs?retryWrites=true&w=majority"
+  },
+  "jwt": {
+    "tokenSecret": "pointyHairyBossy"
+  }
+}
