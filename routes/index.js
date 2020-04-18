@@ -5,13 +5,7 @@ var ToDoList = require('../db_models/todo-list.schema');
 /* GET home page. */
 router.get('/', function (req, res, next) {
   try{
-    /*let newTodoItem = {
-      task: "Testing Task",
-      userId: "1234"
-    };
-
-    let result = new ToDoList(newTodoItem).save();*/
-    res.send("Server running.");
+    res.send("Server running on port: 3000.");
   }
   catch (error) {
     res.status(500).json({
