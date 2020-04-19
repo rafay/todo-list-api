@@ -12,7 +12,7 @@ var todolist = require('./routes/todolist');
 var mongoose = require('mongoose');
 const config = require('config');
 
-var dbConnectionString = config.get("dbConfig.mongoUrl");
+var dbConnectionString = process.env.DATABASE_URL || config.get("dbConfig.mongoUrl");
 mongoose.connect(dbConnectionString);
 
 // On Connection Success
