@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "userId": "5cbbf240-80f7-11ea-980d-8ba9667b7e93",
+      "name": "rafay",
+      "password": "rafay123",
+      "created": "2020-04-18T17:10:30.223+0000",
+      "modified": "2020-04-18T17:10:30.223+0000"
+    }
+  ],
+  "todolists": [
+    {
+      "done": false,
+      "deleted": false,
+      "task": "Get something for kids",
+      "userId": "5cbbf240-80f7-11ea-980d-8ba9667b7e93",
+      "created": "2020-04-18T06:41:02.311+0000",
+      "modified": "2020-04-18T06:41:02.311+0000"
+    },
+    {
+      "done": false,
+      "deleted": false,
+      "task": "Clean the cupboard",
+      "userId": "5cbbf240-80f7-11ea-980d-8ba9667b7e93",
+      "created": "2020-04-18T07:30:07.900+0000",
+      "modified": "2020-04-18T07:43:34.753+0000"
+    },
+    {
+      "done": false,
+      "deleted": false,
+      "task": "Complete task1",
+      "userId": "5cbbf240-80f7-11ea-980d-8ba9667b7e93",
+      "created": "2020-04-18T07:30:21.259+0000",
+      "modified": "2020-04-18T07:30:21.259+0000"
+    }
+  ]
+}

@@ -3,10 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test": "mocha ./test/**/*.spec.js --delay"
   },
   "dependencies": {
     "body-parser": "~1.18.2",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
     "config": "^3.3.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
@@ -14,9 +17,15 @@
     "jade": "~1.11.0",
     "jsonwebtoken": "^8.5.1",
     "luxon": "^1.23.0",
+    "mocha": "^7.1.1",
     "mongoose": "^5.9.9",
     "morgan": "~1.9.0",
     "serve-favicon": "~2.4.5",
+    "sinon": "^9.0.2",
     "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "mongo-unit": "^2.0.1",
+    "mongodb-memory-server": "^6.5.2"
   }
 }
