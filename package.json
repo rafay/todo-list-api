@@ -7,13 +7,13 @@
     "test": "mocha ./test/**/*.spec.js --delay"
   },
   "dependencies": {
-    "body-parser": "~1.18.2",
+    "body-parser": "~1.20.1",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
     "config": "^3.3.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
-    "express": "~4.15.5",
+    "express": "~4.18.2",
     "jade": "~1.11.0",
     "jsonwebtoken": "^8.5.1",
     "luxon": "^1.23.0",
